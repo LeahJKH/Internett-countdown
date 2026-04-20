@@ -7,7 +7,8 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(58, 58, 58);
+background: #807e7e;
+background: linear-gradient(42deg, rgb(73, 73, 73) 14%, rgba(58, 58, 58, 1) 66%);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -27,7 +28,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding: 25px;
-    background-color: rgb(58, 58, 58);
+    background-color: #3a3a3a;
 }
 main {
     display: flex;
@@ -41,5 +42,6 @@ main {
 }
 #count-down {
     font-size: 42px;
+    text-transform: uppercase;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
