@@ -4,6 +4,7 @@
     margin: 0;
 }
 body {
+    text-align: center;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -19,6 +20,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+}
+#overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+
 }
 #color-bit {
     width: 99%;
@@ -39,9 +48,11 @@ main {
 }
 .text-date {
     font-size: 32px;
+    color: white;
 }
 #count-down {
     font-size: 42px;
     text-transform: uppercase;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 230, 198);
 }
