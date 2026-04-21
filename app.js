@@ -7,7 +7,7 @@ updateTimer() // initialize
 
 let counter = setInterval(function() {
     updateTimer()
-}, 1000)
+}, 1000) // runs every 1 second
 
 function updateTimer() {
 
