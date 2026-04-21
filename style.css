@@ -8,8 +8,8 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-background: #807e7e;
-background: linear-gradient(42deg, rgb(73, 73, 73) 14%, rgba(58, 58, 58, 1) 66%);
+    background: #807e7e;
+    background: linear-gradient(42deg, rgb(73, 73, 73) 14%, rgba(58, 58, 58, 1) 66%);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -20,6 +20,11 @@ header {
     display: flex;
 
     z-index: 1;
+}
+main {
+    
+    padding: 50px 0;
+    gap: 20px;
 }
 #overlay {
     position: absolute;
@@ -38,15 +43,6 @@ header {
     padding: 25px;
     background-color: #3a3a3a;
 }
-main {
-
-    padding: 50px 0;
-    gap: 20px;
-}
-.text-date {
-    font-size: 32px;
-    color: white;
-}
 #count-down {
     font-size: 42px;
     text-transform: uppercase;
@@ -54,6 +50,10 @@ main {
     color: rgb(56, 230, 198);
     max-width: 120px;
     text-align: center;
+}
+.text-date {
+    font-size: 32px;
+    color: white;
 }
 
 .center {
