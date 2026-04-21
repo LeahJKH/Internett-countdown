@@ -1,4 +1,4 @@
-const endDate = new Date("apr 4, 2026 11:00:00").getTime() // date for timer too end chage using same format
+const endDate = new Date("may 4, 2026 11:00:00").getTime() // date for timer too end chage using same format
 const display = document.querySelector("#count-down")
 const overlay = document.querySelector("#overlay")
  let start = ((endDate - Date.now()) / 1000) | 0; // this steps through giving us the accurate time between or just 0 if not
